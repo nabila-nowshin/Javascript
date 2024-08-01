@@ -63,3 +63,4 @@ var total=float1+float2;
 console.log(total);    //0.30000000000000004
 
 console.log(total.toFixed(2)); //0.30
+

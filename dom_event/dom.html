@@ -1,0 +1,36 @@
+<!-- using id -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom explore</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h3>Dom Exploring</h3>
+            <p>First paragraph</p>
+            <p>Second paragraph</p>
+            <p id="third">Third paragraph</p>
+            <h2 class="heading">H2 Heading</h2>
+        </section>
+    </main>
+
+    <script>
+        console.log(document.getElementById("third"))
+        console.log(document.getElementsByTagName('p'))
+        console.log(document.getElementsByTagName('main'))
+        console.log(document.getElementsByClassName('heading'))
+
+        var element1=document.getElementById("third");            
+        //tag doesnt work like this,Id selects one definite one
+        element1.style.color='red';
+        element1.style.backgroundColor='green';
+    </script>
+
+</body>
+</html>
+

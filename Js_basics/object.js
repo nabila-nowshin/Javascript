@@ -16,3 +16,7 @@ console.log(student2);
 //add new
 student2.profession="Mariner";
 console.log(student2);
+
+//delete any property
+delete student2.profession;
+console.log(student2);

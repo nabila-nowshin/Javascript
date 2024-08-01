@@ -1,8 +1,0 @@
-important ques interview:
-what is js ,how it works?
-its a scripting or interpreted high level programming languages, single threated and non blocking
-
-what is scripting lang?
->interpret lagena
-
-interpreter ,compiler?

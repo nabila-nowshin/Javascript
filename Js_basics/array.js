@@ -44,4 +44,4 @@ console.log(friendArray);
 //splice
 var newPart2=friendArray.splice(2,6);   //baad jabe
 console.log('splice',newPart2);
-console.log(friendArray);
+console.log(friendArray);              //change the array

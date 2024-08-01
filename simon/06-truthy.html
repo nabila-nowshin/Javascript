@@ -1,0 +1,89 @@
+<!-- falsy values
+ 0   ''   NaN  Undefined null  
+ Other than these are truthy values -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        /* more boolean
+        
+        if(NaN){
+            console.log("hellooo");
+        }
+
+        else if(10){
+            console.log("hello dear")
+        }
+
+        const quantity=5;
+        if(quantity){
+            console.log('the cart has products');
+        }
+
+        console.log(!0);
+
+        //NaN Not a number
+        console.log('text'/5);
+
+        let variable;
+        console.log(variable);
+
+        // in case of const need to define undefined
+
+        const variable2=undefined;
+        console.log(variable2);
+        */
+        
+
+        /* ternary;like if else
+          but we can save it in a varible
+          true ? 'truthy':'falsy'
+        */
+
+        const result=(5>3)? 'truee':'false';
+        console.log(result);
+
+        /* guard operator,can store in a variable
+        also a short cut of if else
+
+        if the left side is falsy,the result will be on right side
+
+
+        */
+        const res=false && 'Run when the condition satisfies';
+        console.log(res);
+
+        const res2=true && 'Run when the condition satisfies';
+        console.log(res2);
+
+        const res3=(5>3) && 'Run when the condition satisfies';
+        console.log(res3);
+
+        const res4=(5) && 'Run when the condition satisfies';
+        console.log(res4);
+
+       /* default operator,|| ,helps us choose defaut value
+       stopes early when got left side true and left side as result
+       
+       if left side not true,right one is the res 
+       
+       here by default usd,if not*/
+
+       const currency="Euro" || 'USD';
+       console.log(currency);
+
+       const currency2="" || 'USD';
+       console.log(currency2);
+
+
+
+
+    </script>
+ </body>
+ </html>
